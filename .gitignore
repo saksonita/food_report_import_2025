@@ -11,3 +11,6 @@ __pycache__/
 # dockers 
 *.dockerfile
 *.yml
+
+# csv files
+*.csv
