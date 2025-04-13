@@ -1,0 +1,11 @@
+FROM python:3.10-slim
+
+# Install dependencies
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+RUN pip install jupyter ipykernel
+
+# Install the kernel spec
+RUN python -m ipykernel install --name "docker-python" --display-name "Python (Docker)"
+
+WORKDIR /notebooks
