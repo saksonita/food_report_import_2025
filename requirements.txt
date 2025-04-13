@@ -2,3 +2,7 @@ pymysql
 pandas
 python-dotenv
 tqdm
+matplotlib
+numpy
+scikit-learn
+imbalanced-learn
