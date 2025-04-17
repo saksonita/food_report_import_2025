@@ -7,3 +7,5 @@ numpy
 scikit-learn
 imbalanced-learn
 shap
+streamlit
+seaborn
